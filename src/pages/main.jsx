@@ -39,7 +39,7 @@ const Main = () => {
             <p className="text-white  mb-10 text-center text-[25px] sm:text-[27px] md:text-[29px] lg:text-[33px]">Welcome, {name}!</p>
             <h1 className="text-green-400 text-center mb-4 text-[18px] sm:text-[20px] md:text-[22px] lg:text-[25px]">What's your plan for today?</h1>
             <div className="flex justify-center items-center h-20 mb-6 sm:mb-9 md:mb-12 lg:mb-20">
-                <input type="text" id="taskInput" value={newTask} placeholder=""  className="font-semibold py-[10px] pl-4 outline-none lg:px-10" onChange={handleChange}/>
+                <input type="text" id="taskInput" value={newTask} placeholder=""   className="font-semibold py-[10px] pl-4 outline-none lg:px-10 rounded-none" onChange={handleChange}/>
                 <button className="bg-green-500 px-2 py-[10px] text-white font-semibold outline-none" onClick={handleClick}>Add Task</button>
             </div>
             { toggle &&

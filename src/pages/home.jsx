@@ -24,7 +24,7 @@ const Home = () => {
                     <h1 className="text-5xl mb-7 text-green-400 sm:text-7xl sm:mb-9 ">Tasker</h1>
                     <p className="text-white text-4xl leading-[60px] sm:text-5xl sm:leading-[75px]">Manage your <span className="text-green-400 border-b border-white-700"> Tasks </span><br/> with ease.</p>
                     
-                    <input type='text' id="nameInput" placeholder="Enter name" value={name} className=" font-semibold outline-none mt-8 pl-4 py-1 sm:pl-10 sm:py-2 md:px-10" onChange={handleChange} name={name}/>
+                    <input type='text' id="nameInput" placeholder="Enter name" value={name} className="rounded-none font-semibold outline-none mt-8 pl-4 py-1 sm:pl-10 sm:py-2 md:px-10" onChange={handleChange} name={name}/>
                     
                     <div className="flex justify-center mt-8 sm:mt-10">
                         <button className="bg-green-700 text-white font-bold px-5 py-2 hover:bg-green-500" onClick={handleNavigate}>Proceed</button>
