@@ -8,7 +8,7 @@ const Task = ({list, handleDelete}) => {
         setIsDone(!isDone)
     }
     return(
-        <div className="flex justify-between items-center mb-8">
+        <div className="flex justify-between items-center mb-6">
             <h1 className={`text-white px-4 ${ isDone ? 'line-through text-green-600' : ''} sm:text-[18px] md:text-[20px] lg:text-[22px]`}>{list}</h1>
             <div className="flex items-center text-white">
                 <button className="bg-green-500 px-2 mr-4 font-bold md:px-3 md:py-1" onClick={handleDone}>{isDone ? 'Undo' : 'Done'}</button>

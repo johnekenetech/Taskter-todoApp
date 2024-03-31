@@ -27,7 +27,7 @@ const Home = () => {
                     <input type='text' id="nameInput" placeholder="Enter name" value={name} className=" font-semibold outline-none mt-8 pl-4 py-1 sm:pl-10 sm:py-2 md:px-10" onChange={handleChange} name={name}/>
                     
                     <div className="flex justify-center mt-8 sm:mt-10">
-                        <p className="bg-green-700 text-white font-bold px-5 py-2 hover:bg-green-500" onClick={handleNavigate}>Proceed</p>
+                        <button className="bg-green-700 text-white font-bold px-5 py-2 hover:bg-green-500" onClick={handleNavigate}>Proceed</button>
                     </div>
                
             </div> 
