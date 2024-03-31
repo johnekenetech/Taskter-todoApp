@@ -26,7 +26,7 @@ const Home = () => {
                     
                     <input type='text' id="nameInput" placeholder="Enter name" value={name} className=" font-semibold outline-none mt-8 pl-4 py-1 sm:pl-10 sm:py-2 md:px-10" onChange={handleChange} name={name}/>
                     <div className="flex justify-center mt-12 sm:mt-16">
-                        <img src="src\enter.png" alt="" className="sm:w-[75px] cursor-pointer" onClick={handleNavigate}/>
+                        <img src="public\enter.png" className="sm:w-[75px] cursor-pointer" onClick={handleNavigate}/>
                     </div>
                
             </div> 
